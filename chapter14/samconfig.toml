@@ -5,8 +5,8 @@ version = 0.1
 [default]
 [default.deploy]
 [default.deploy.parameters]
-stack_name = "todolistapp-frontend-stack"
+stack_name = [YOURSTACKNAME]
 region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
 confirm_changeset = true
-s3_bucket = "<YOURWEBSITEBUCKETNAME.SAM>" # Change the name of the S3 bucket you created to store your deployment configuration 
+s3_bucket = [YOURWEBSITEBUCKETNAME.SAM] # Change the name of the S3 bucket you created to store your deployment configuration 
